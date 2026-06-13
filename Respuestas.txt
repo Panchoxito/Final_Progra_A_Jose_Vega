@@ -1,0 +1,168 @@
+1. Mapa mental
+
+Sistema de Reservas de Hotel
+|
+|-- Entrada de datos
+|   |-- Nombre del cliente
+|   |-- Número de habitación
+|   |-- Fecha de ingreso
+|   |-- Número de noches
+|   |-- Precio por noche
+|
+|-- Clases del proyecto
+|   |-- Clase Reserva
+|   |   |-- Guarda los datos de cada reserva
+|   |   |-- Calcula el total de una reserva
+|   |   |-- Convierte la información para guardarla en archivo
+|   |
+|   |-- Clase Hotel
+|       |-- Contiene la lista de reservas
+|       |-- Registra nuevas reservas
+|       |-- Lista las reservas existentes
+|       |-- Calcula el ingreso total esperado
+|       |-- Busca la reserva de mayor duración
+|       |-- Guarda y carga datos desde reservas.txt
+|
+|-- Aplicación de consola
+|   |-- Muestra el menú principal
+|   |-- Lee y valida los datos ingresados por el usuario
+|   |-- Llama a los métodos de la clase Hotel
+|
+|-- Almacenamiento
+|   |-- Se utiliza un archivo de texto llamado reservas.txt
+|   |-- Cada reserva se guarda separada por el símbolo |
+|
+|-- Resultado final
+    |-- El hotel puede registrar, listar, calcular ingresos y consultar la reserva más larga.
+
+
+2. Comentarios
+
+Para resolver el problema se dividió el proyecto en dos partes principales: una biblioteca de clases llamada Hotel.Modelos y una aplicación de consola llamada Hotel.App. Esta separación permite mantener la lógica del sistema aparte de la interfaz de usuario.
+
+Se creó la clase Reserva para representar cada reservación del hotel. Esta clase contiene los datos solicitados en las instrucciones: nombre del cliente, número de habitación, fecha de ingreso, número de noches y precio por noche. También incluye el método CalcularTotal, que multiplica el número de noches por el precio por noche.
+
+Se creó la clase Hotel para administrar una colección de reservas. La estructura de datos utilizada fue List<Reserva>, porque permite almacenar varias reservas en memoria, recorrerlas con ciclos, agregar nuevos elementos y buscar información fácilmente.
+
+Los modificadores de acceso se usaron de forma controlada. Las propiedades principales de Reserva tienen get público y set privado para evitar cambios directos desde otras clases. Los métodos que necesita usar la aplicación son públicos, mientras que los métodos internos para guardar y cargar el archivo son privados.
+
+Se implementaron estructuras de control como switch para manejar las opciones del menú, if para validar si existen reservas y ciclos do while, foreach y while para repetir el menú, recorrer reservas y validar entradas.
+
+Para cumplir con el requisito de almacenamiento, la información se guarda en un archivo de texto llamado reservas.txt. Al iniciar el programa, la clase Hotel carga automáticamente las reservas existentes si el archivo ya fue creado.
+
+
+3. Partes hechas por IA
+
+Partes elaboradas manualmente:
+- Análisis de las instrucciones del problema.
+- Identificación de los datos que debe contener cada reserva.
+- Definición de las operaciones principales del menú.
+- Revisión del funcionamiento esperado de la aplicación en consola.
+- Pruebas de ejecución para verificar que el menú y las operaciones funcionen correctamente.
+
+Partes asistidas por IA:
+- Apoyo en la organización de las clases Reserva y Hotel.
+- Sugerencias para separar el proyecto en biblioteca de clases y aplicación de consola.
+- Apoyo para crear los métodos de registro, listado, cálculo de ingreso total y búsqueda de la reserva de mayor duración.
+- Apoyo para estructurar el archivo respuestas.txt con el mapa mental y los comentarios solicitados.
+
+
+Serie III
+
+1. ¿Qué error hay en este código? ¿Cómo lo solucionaría?
+
+Errores encontrados:
+
+a) Falta la llave de cierre del struct Reserva.
+
+El método CalcularCosto está declarado fuera de una estructura o clase válida, lo que provocará errores de compilación.
+
+Solución:
+Cerrar correctamente el struct antes de declarar otros métodos o clases.
+
+b) Variable no definida.
+
+Dentro del método CalcularCosto se utiliza la variable Noches, pero esta no existe dentro del método ni se recibe como parámetro.
+
+Ejemplo del error:
+
+return Noches * precioPorNoche;
+
+Solución:
+
+public static double CalcularCosto(int noches, double precioPorNoche)
+{
+    return noches * precioPorNoche;
+}
+
+c) Constructor incompleto.
+
+El constructor solamente asigna los valores de Cliente y Habitacion, dejando sin inicializar Noches y Huespedes.
+
+Solución:
+
+public Reserva(string cliente, int habitacion, int noches, int huespedes)
+{
+    Cliente = cliente;
+    Habitacion = habitacion;
+    Noches = noches;
+    Huespedes = huespedes;
+}
+
+2. ¿Qué diferencias habría si Reserva fuera una clase en lugar de struct?
+
+Las principales diferencias son:
+
+- Struct es un tipo por valor.
+- Clase es un tipo por referencia.
+- Al copiar un struct se duplica toda la información.
+- Al copiar una clase se copia únicamente la referencia al objeto.
+- Los struct suelen utilizarse para objetos pequeños y simples.
+- Las clases son más adecuadas para objetos complejos con muchos datos y comportamientos.
+
+
+
+3. ¿Según su opinión los modificadores de acceso son correctos? Razone su respuesta.
+
+Todos los campos fueron declarados como public, permitiendo que cualquier parte del programa pueda modificar los datos directamente.
+
+Ejemplo:
+
+public string Cliente;
+public int Habitacion;
+public int Noches;
+public int Huespedes;
+
+Una mejor práctica es utilizar propiedades para aplicar encapsulamiento.
+
+Ejemplo:
+
+public string Cliente { get; set; }
+public int Habitacion { get; set; }
+public int Noches { get; set; }
+public int Huespedes { get; set; }
+
+Esto mejora la seguridad y organización del código.
+
+
+4. ¿Está correctamente estructurado para mejorarse en futuras versiones? ¿Por qué?
+
+No completamente.
+
+Aunque existe una estructura básica para almacenar la información de una reserva, el código presenta algunos problemas:
+
+- No utiliza encapsulamiento.
+- El constructor está incompleto.
+- El método de cálculo no está relacionado directamente con la reserva.
+- No existe separación adecuada de responsabilidades.
+- No se implementan validaciones de datos.
+
+Para futuras versiones sería recomendable:
+
+- Utilizar una clase en lugar de un struct.
+- Implementar propiedades con validaciones.
+- Crear métodos específicos dentro de la clase.
+- Separar la lógica de negocio de la interfaz de usuario.
+- Utilizar colecciones y persistencia de datos.
+
+Con estas mejoras el sistema sería más fácil de mantener, ampliar y reutilizar en futuros proyectos.
