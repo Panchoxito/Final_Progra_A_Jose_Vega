@@ -9,3 +9,15 @@ C:\Users\davin\OneDrive\Desktop\c#\Hotel.Modelos\obj\Debug\net8.0\Hotel.Modelos.
 C:\Users\davin\OneDrive\Desktop\c#\Hotel.Modelos\obj\Debug\net8.0\refint\Hotel.Modelos.dll
 C:\Users\davin\OneDrive\Desktop\c#\Hotel.Modelos\obj\Debug\net8.0\Hotel.Modelos.pdb
 C:\Users\davin\OneDrive\Desktop\c#\Hotel.Modelos\obj\Debug\net8.0\ref\Hotel.Modelos.dll
+C:\Users\davin\OneDrive\Desktop\Ejercicio Examen Final\Hotel.Modelos\bin\Debug\net8.0\Hotel.Modelos.deps.json
+C:\Users\davin\OneDrive\Desktop\Ejercicio Examen Final\Hotel.Modelos\bin\Debug\net8.0\Hotel.Modelos.dll
+C:\Users\davin\OneDrive\Desktop\Ejercicio Examen Final\Hotel.Modelos\bin\Debug\net8.0\Hotel.Modelos.pdb
+C:\Users\davin\OneDrive\Desktop\Ejercicio Examen Final\Hotel.Modelos\obj\Debug\net8.0\Hotel.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davin\OneDrive\Desktop\Ejercicio Examen Final\Hotel.Modelos\obj\Debug\net8.0\Hotel.Modelos.AssemblyInfoInputs.cache
+C:\Users\davin\OneDrive\Desktop\Ejercicio Examen Final\Hotel.Modelos\obj\Debug\net8.0\Hotel.Modelos.AssemblyInfo.cs
+C:\Users\davin\OneDrive\Desktop\Ejercicio Examen Final\Hotel.Modelos\obj\Debug\net8.0\Hotel.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\davin\OneDrive\Desktop\Ejercicio Examen Final\Hotel.Modelos\obj\Debug\net8.0\Hotel.Modelos.sourcelink.json
+C:\Users\davin\OneDrive\Desktop\Ejercicio Examen Final\Hotel.Modelos\obj\Debug\net8.0\Hotel.Modelos.dll
+C:\Users\davin\OneDrive\Desktop\Ejercicio Examen Final\Hotel.Modelos\obj\Debug\net8.0\refint\Hotel.Modelos.dll
+C:\Users\davin\OneDrive\Desktop\Ejercicio Examen Final\Hotel.Modelos\obj\Debug\net8.0\Hotel.Modelos.pdb
+C:\Users\davin\OneDrive\Desktop\Ejercicio Examen Final\Hotel.Modelos\obj\Debug\net8.0\ref\Hotel.Modelos.dll

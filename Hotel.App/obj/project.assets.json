@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.App\\Hotel.App.csproj",
+      "projectUniqueName": "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.App\\Hotel.App.csproj",
       "projectName": "Hotel.App",
-      "projectPath": "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.App\\Hotel.App.csproj",
+      "projectPath": "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.App\\Hotel.App.csproj",
       "packagesPath": "C:\\Users\\davin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.App\\obj\\",
+      "outputPath": "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\davin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,8 +54,8 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.Modelos\\Hotel.Modelos.csproj": {
-              "projectPath": "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.Modelos\\Hotel.Modelos.csproj"
+            "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.Modelos\\Hotel.Modelos.csproj": {
+              "projectPath": "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.Modelos\\Hotel.Modelos.csproj"
             }
           }
         }

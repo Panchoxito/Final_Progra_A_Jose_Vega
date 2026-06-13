@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.Modelos\\Hotel.Modelos.csproj": {}
+    "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.Modelos\\Hotel.Modelos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.Modelos\\Hotel.Modelos.csproj": {
+    "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.Modelos\\Hotel.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.Modelos\\Hotel.Modelos.csproj",
+        "projectUniqueName": "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.Modelos\\Hotel.Modelos.csproj",
         "projectName": "Hotel.Modelos",
-        "projectPath": "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.Modelos\\Hotel.Modelos.csproj",
+        "projectPath": "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.Modelos\\Hotel.Modelos.csproj",
         "packagesPath": "C:\\Users\\davin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.Modelos\\obj\\",
+        "outputPath": "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\davin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\",
+  "WorkspaceRootPath": "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2857C1A-53DD-4D08-AE00-9343A9187211}|Hotel.App\\Hotel.App.csproj|c:\\users\\davin\\onedrive\\desktop\\c#\\hotel.app\\hotel.app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E2857C1A-53DD-4D08-AE00-9343A9187211}|Hotel.App\\Hotel.App.csproj|solutionrelative:hotel.app\\hotel.app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E2857C1A-53DD-4D08-AE00-9343A9187211}|Hotel.App\\Hotel.App.csproj|c:\\users\\davin\\onedrive\\desktop\\ejercicio examen final\\hotel.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2857C1A-53DD-4D08-AE00-9343A9187211}|Hotel.App\\Hotel.App.csproj|solutionrelative:hotel.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4963858-5684-4752-915D-FB9279FC6BAA}|Hotel.Modelos\\Hotel.Modelos.csproj|c:\\users\\davin\\onedrive\\desktop\\c#\\hotel.modelos\\hotel.modelos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{C4963858-5684-4752-915D-FB9279FC6BAA}|Hotel.Modelos\\Hotel.Modelos.csproj|c:\\users\\davin\\onedrive\\desktop\\ejercicio examen final\\hotel.modelos\\hotel.modelos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C4963858-5684-4752-915D-FB9279FC6BAA}|Hotel.Modelos\\Hotel.Modelos.csproj|solutionrelative:hotel.modelos\\hotel.modelos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,29 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Hotel.Modelos.csproj",
-              "DocumentMoniker": "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.Modelos\\Hotel.Modelos.csproj",
-              "RelativeDocumentMoniker": "Hotel.Modelos\\Hotel.Modelos.csproj",
-              "ToolTip": "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.Modelos\\Hotel.Modelos.csproj",
-              "RelativeToolTip": "Hotel.Modelos\\Hotel.Modelos.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-13T17:39:36.678Z",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.App\\Program.cs",
+              "RelativeDocumentMoniker": "Hotel.App\\Program.cs",
+              "ToolTip": "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.App\\Program.cs",
+              "RelativeToolTip": "Hotel.App\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T17:47:25.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Hotel.App.csproj",
-              "DocumentMoniker": "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.App\\Hotel.App.csproj",
-              "RelativeDocumentMoniker": "Hotel.App\\Hotel.App.csproj",
-              "ToolTip": "C:\\Users\\davin\\OneDrive\\Desktop\\c#\\Hotel.App\\Hotel.App.csproj",
-              "RelativeToolTip": "Hotel.App\\Hotel.App.csproj",
+              "DocumentIndex": 1,
+              "Title": "Hotel.Modelos.csproj",
+              "DocumentMoniker": "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.Modelos\\Hotel.Modelos.csproj",
+              "RelativeDocumentMoniker": "Hotel.Modelos\\Hotel.Modelos.csproj",
+              "ToolTip": "C:\\Users\\davin\\OneDrive\\Desktop\\Ejercicio Examen Final\\Hotel.Modelos\\Hotel.Modelos.csproj",
+              "RelativeToolTip": "Hotel.Modelos\\Hotel.Modelos.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-13T17:39:33.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-13T17:39:36.678Z"
             }
           ]
         }
